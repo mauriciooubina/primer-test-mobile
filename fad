@@ -1,0 +1,41 @@
+[33mcommit e456306b4149f667adfd74352bd84599fab566cb[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: mauriciooubina <mauriciooubina@gmail.com>
+Date:   Sun May 3 22:49:26 2020 -0300
+
+    arreglo assert MicrosoftSearchBusiness
+
+[33mcommit dfd85084665eba927d6122a89decd0da65746536[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: mauriciooubina <mauriciooubina@gmail.com>
+Date:   Sun May 3 22:04:09 2020 -0300
+
+    arreglo assert MicrosoftSearchBusiness
+
+[33mcommit e1351258c39f570f064b5e2007a130c0f3603696[m
+Author: mauriciooubina <mauriciooubina@gmail.com>
+Date:   Sun May 3 20:57:21 2020 -0300
+
+    agrego clase y test sobre passsword webpage
+
+[33mcommit 9baf6f1d30828df3bcdc4dde334efdccc0e385a2[m
+Author: mauriciooubina <mauriciooubina@gmail.com>
+Date:   Sun May 3 18:22:13 2020 -0300
+
+    corrijo errores
+
+[33mcommit 908fa91a45092b305e551ac78c67bb1bfed65423[m
+Author: mauriciooubina <mauriciooubina@gmail.com>
+Date:   Sun May 3 17:15:57 2020 -0300
+
+    cambio By.cssSelector por By.id
+
+[33mcommit 401bd19f9cfc2b1177028e9dfeb805e7e0533d15[m
+Author: mauriciooubina <mauriciooubina@gmail.com>
+Date:   Sun May 3 15:27:13 2020 -0300
+
+    primer commit
+
+[33mcommit b440f6291e8fe60e25ccb76b6b12a6fd806b0b24[m
+Author: mauriciooubina <mauriciooubina@gmail.com>
+Date:   Sun May 3 15:12:43 2020 -0300
+
+    cambios en By.id
