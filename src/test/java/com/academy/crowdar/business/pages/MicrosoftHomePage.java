@@ -1,6 +1,8 @@
 package com.academy.crowdar.business.pages;
 
 import java.util.concurrent.TimeUnit;
+
+import io.appium.java_client.MobileBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -16,14 +18,14 @@ public class MicrosoftHomePage {
 	}
 	
 	public void clickButton(String idBtn) {
-		WebElement btnSearch = driver.findElement(By.id(idBtn));
+		WebElement btnSearch = driver.findElement(MobileBy.id(idBtn));
 		btnSearch.click();
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	public void completeText(String text, String place) {
-		WebElement search = driver.findElement(By.id(place));
+		WebElement search = driver.findElement(MobileBy.id(place));
 		search.clear();	
 		search.sendKeys(text);
 		search.sendKeys(Keys.TAB);
@@ -41,5 +43,4 @@ public class MicrosoftHomePage {
 		return driver.findElement(By.id(error)) != null;
 		
 	}
-
 }

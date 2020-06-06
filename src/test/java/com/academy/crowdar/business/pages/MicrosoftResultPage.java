@@ -1,5 +1,6 @@
 package com.academy.crowdar.business.pages;
 
+import io.appium.java_client.MobileBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,7 +16,7 @@ public class MicrosoftResultPage {
 	}
 
 	public void clickOnTheResult(String text) {
-		WebElement result = driver.findElement(By.cssSelector(String.format(SELECTOR_RESULT, text)));
+		WebElement result = driver.findElement(MobileBy.cssSelector(String.format(SELECTOR_RESULT, text)));
 		result.click();
 	}
 	

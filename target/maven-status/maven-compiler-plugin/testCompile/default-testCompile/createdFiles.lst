@@ -2,7 +2,7 @@ com/academy/crowdar/business/MicrosoftLogInBusiness.class
 com/acadeny/crowdar/business/interfaces/BusinessInterface.class
 com/academy/crowdar/business/MicrosoftForgotPasswordBusiness.class
 com/academy/crowdar/business/pages/MicrosoftHomePage.class
+com/academy/crowdar/TestDemoMobile.class
 com/academy/crowdar/business/MicrosoftPasswordBusiness.class
 com/academy/crowdar/business/MicrosoftSearchBusiness.class
 com/academy/crowdar/business/pages/MicrosoftResultPage.class
-com/academy/crowdar/TestDemo.class
